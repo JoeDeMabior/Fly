@@ -3,6 +3,7 @@ package com.joe.fly
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.joe.fly.adapters.DestinationAdapter
 import com.joe.fly.models.Destination
 import com.joe.fly.services.DestinationService
 import com.joe.fly.services.ServiceBuilder
@@ -33,7 +34,7 @@ class MainActivity : AppCompatActivity() {
             override fun onResponse(call: Call<List<Destination>>, response: Response<List<Destination>>) {
                 when {
                     response.isSuccessful -> {
-                        val destinationList = response.body()
+                        val destinationList = response.body()!!
                         recycler_view.adapter = DestinationAdapter(destinationList)
                     }
                     response.code() == 401 -> Toast.makeText(
