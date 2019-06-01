@@ -1,8 +1,9 @@
-package com.joe.fly
+package com.joe.fly.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.joe.fly.R
 import com.joe.fly.adapters.DestinationAdapter
 import com.joe.fly.models.Destination
 import com.joe.fly.services.DestinationService

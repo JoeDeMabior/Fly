@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.joe.fly.R
+import com.joe.fly.activities.DestinationDetailActivity
 import com.joe.fly.models.Destination
 
 class DestinationAdapter(private val destinationList: List<Destination>) :

@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Fly</string>
     <string name="destination">Destination</string>
+    <string name="just_an_image">Just an image</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="description">Description</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
 </resources>
