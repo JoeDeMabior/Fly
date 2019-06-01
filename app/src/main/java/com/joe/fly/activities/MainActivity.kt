@@ -1,5 +1,6 @@
 package com.joe.fly.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -21,6 +22,10 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(toolbar)
         toolbar.title = title
+
+        fab.setOnClickListener {
+            startActivity(Intent(this, CreateDestinationActivity::class.java))
+        }
     }
 
     private fun loadDestinations() {
