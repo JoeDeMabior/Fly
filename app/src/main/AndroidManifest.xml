@@ -14,7 +14,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".activities.CreateDestinationActivity"></activity>
+        <activity android:name=".activities.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.CreateDestinationActivity" />
         <activity android:name=".activities.DestinationDetailActivity" />
         <activity android:name=".activities.MainActivity">
             <intent-filter>

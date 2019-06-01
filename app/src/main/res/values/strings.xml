@@ -8,4 +8,7 @@
     <string name="delete">Delete</string>
     <string name="update">Update</string>
     <string name="add">Add</string>
+    <string name="fly">Fly</string>
+    <string name="to_endless_vacations">…to endless vacations</string>
+    <string name="get_started">Get Started</string>
 </resources>
